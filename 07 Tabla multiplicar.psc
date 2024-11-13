@@ -7,7 +7,7 @@ Algoritmo tabla_multiplicar
     Leer num
     
     // Mostrar el título de la tabla de multiplicar
-    Escribir "Tabla de multiplicar de ", numero
+    Escribir "Tabla de multiplicar de ", num
     
     // Bucle para generar la tabla de multiplicar del 1 al 20
     Para i = 1 Hasta 20 Con Paso 1
