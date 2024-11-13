@@ -1,17 +1,24 @@
 Algoritmo ContadorVocales 
-    Definir frase Como Cadena //la declaro a la variable (frase) como cadena para que quede todo almacenado
-    Definir totalVocales Como Entero//la declaro como entero, porque será el número que me devolverá el contador
     
-    Escribir "Ingrese una palabra o frase: " // el usuario ingresa una palabra frase
+	//Declaro la variable (frase) como cadena para que quede todo almacenado
+	//Declaro como entero, porque será el número que me devolverá el contador
+	Definir frase Como Cadena 
+    Definir totalVocales Como Entero
+    
+	// Se solicita al usuario ingresar una palabra o frase y se almacena
+    Escribir "Ingrese una palabra o frase: " 
 	Escribir "...le hagan escribir groserías"
-	Leer frase //Almacena lo ingresado en la variable frase
+	Leer frase 
     
-    totalVocales <- ContarVocales(frase) // llamamos a la función y le pasamos lo que escribió el usuario
+	//Se llama a la función y le pasamos lo que escribió el usuario
+    totalVocales <- ContarVocales(frase) 
     
-    Escribir "La cantidad de vocales en la frase es: ", totalVocales // la funcioin nos devolverá un numero y lo mostraremos por pantalla
+	//La funcion nos devolverá un numero y se muestra en la terminal
+    Escribir "La cantidad de vocales en la frase es: ", totalVocales 
 FinAlgoritmo
 
-Funcion totalVocales <- ContarVocales(frase) // Le asigno a totalVocales el resultado de la funcion para que de un misilazo lo devualva al algoritmo ppal.
+//Se asigna a totalVocales el resultado de la funcion para que devualva al algoritmo principal
+Funcion totalVocales <- ContarVocales(frase) 
     Definir i Como Entero			//inicializo las variables para el ciclo for 
     Definir contador Como Entero	//inicializo las variables para el ciclo for 
     Definir letra Como Caracter	//inicializo las variables para el ciclo for 
