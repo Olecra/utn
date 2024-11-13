@@ -1,17 +1,17 @@
 Algoritmo tabla_multiplicar
-    // Definir las variables "numero" e "i" como enteros
+    // Definir las variables "num" e "i" como enteros
     Definir numero, i Como Entero
     
-    // Solicitar al usuario que ingrese el número para generar su tabla de multiplicar
-    Escribir "Ingrese el número para generar su tabla de multiplicar: "
+    // Solicitar al usuario que ingrese el nÃºmero para generar su tabla de multiplicar
+    Escribir "Ingrese el nÃºmero para generar su tabla de multiplicar: "
     Leer numero
     
-    // Mostrar el título de la tabla de multiplicar
+    // Mostrar el tÃ­tulo de la tabla de multiplicar
     Escribir "Tabla de multiplicar de ", numero
     
     // Bucle para generar la tabla de multiplicar del 1 al 20
     Para i = 1 Hasta 20 Con Paso 1
-        // Mostrar el resultado de la multiplicación de "numero" por el valor actual de "i"
+        // Mostrar el resultado de la multiplicaciÃ³n de "numero" por el valor actual de "i"
         Escribir numero, " x ", i, " = ", numero * i
     FinPara
     
