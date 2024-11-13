@@ -12,7 +12,7 @@ Algoritmo tabla_multiplicar
     // Bucle para generar la tabla de multiplicar del 1 al 20
     Para i = 1 Hasta 20 Con Paso 1
         // Mostrar el resultado de la multiplicación de "numero" por el valor actual de "i"
-        Escribir numero, " x ", i, " = ", numero * i
+        Escribir num, " x ", i, " = ", num * i
     FinPara
     
 FinAlgoritmo
