@@ -1,18 +1,18 @@
 Algoritmo matrices
     
-    // Se definen las variables para el tamaño de las matrices y las matrices mismas
+    // Se definen las variables para el tamaÃ±o de las matrises y las matrices mismas
     Definir filas, columnas Como Entero
     Definir matriz1, matriz2, resultado Como Entero
     
-    // Solicitar al usuario el número de filas de las matrices
-    Escribir "Ingrese el número de filas de las matrices: "
+    // Solicitar al usuario el nÃºmero de filas de las matrices
+    Escribir "Ingrese el nÃºmero de filas de las matrices: "
     Leer filas
     
-    // Solicitar al usuario el número de columnas de las matrices
-    Escribir "Ingrese el número de columnas de las matrices: "
+    // Solicitar al usuario el nÃºmero de columnas de las matrices
+    Escribir "Ingrese el nÃºmero de columnas de las matrices: "
     Leer columnas
     
-    // Definir la primera matriz con el tamaño dado
+    // Definir la primera matriz con el tamaÃ±o dado
     Dimension matriz1[filas, columnas]
     Para i <- 1 Hasta filas Hacer
         Para j <- 1 Hasta columnas Hacer
@@ -22,7 +22,7 @@ Algoritmo matrices
         FinPara
     FinPara
     
-    // Definir la segunda matriz con el mismo tamaño
+    // Definir la segunda matriz con el mismo tamaÃ±o
     Dimension matriz2[filas, columnas]
     Para i <- 1 Hasta filas Hacer
         Para j <- 1 Hasta columnas Hacer
@@ -32,7 +32,7 @@ Algoritmo matrices
         FinPara
     FinPara
     
-    // Definir la matriz resultado que almacenará la suma de las dos matrices
+    // Definir la matriz resultado que almacenarÃ¡ la suma de las dos matrices
     Dimension resultado[filas, columnas]
     Para i <- 1 Hasta filas Hacer
         Para j <- 1 Hasta columnas Hacer
@@ -45,10 +45,10 @@ Algoritmo matrices
     Escribir "La matriz resultante de la suma es:"
     Para i <- 1 Hasta filas Hacer
         Para j <- 1 Hasta columnas Hacer
-            // Mostrar cada elemento de la matriz resultado sin salto de línea
+            // Mostrar cada elemento de la matriz resultado sin salto de lÃ­nea
             Escribir Sin Saltar resultado[i, j], "  "
         FinPara
-        // Al final de cada fila, hacer un salto de línea
+        // Al final de cada fila, hacer un salto de lÃ­nea
         Escribir ""
     FinPara
 	
