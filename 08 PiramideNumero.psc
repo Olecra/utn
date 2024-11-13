@@ -1,11 +1,11 @@
 Algoritmo PiramideNumeros
 	Definir num, fila, columna Como Entero
 	
-	// Solicita al usuario que ingrese un número
-	Escribir "Ingrese un número para generar la pirámide: "
+	// Solicita al usuario que ingrese un nÃºmero
+	Escribir "Ingrese un nÃºmero para generar la pirÃ¡mide: "
 	Leer num
 	
-	// Genera la pirámide de números
+	// Genera la pirÃ¡mide de nÃºmeros
 	Para fila <- 1 Hasta num Hacer
 		Para columna <- 1 Hasta fila Hacer
 			Escribir columna, Sin Saltar Salto  
