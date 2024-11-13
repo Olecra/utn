@@ -1,12 +1,14 @@
-Algoritmo invertidor // inicio el algoritmo principal "inversor" (bien escito)
+Algoritmo Invertir
+	
+	// Se definen las variables
     Definir catena Como Cadena			//definicion de variable para la cadena
     Definir longitudCadena Como Entero	//definicion de variable para la Longitud de la caena
-    Definir matriz Como Caracter			//definicion de variable para la frase
-    Definir i Como Entero					//definicion de variable para llos iteradores del ciclo for
+    Definir matriz Como Caracter		//definicion de variable para la frase
+    Definir i Como Entero				//definicion de variable para llos iteradores del ciclo for
     Definir j Como Entero
-    Definir alverres Como Cadena	//definicion de variable para la cadena al revés
-    Escribir "Ingrese una palabra o frase para que sea invertida: " // el usuario ingresa una palabra frase
-    Leer catena //Almacena lo ingresado en la variable
+    Definir alverres Como Cadena		//definicion de variable para la cadena al revés
+    Escribir "Ingrese una palabra o frase para que sea invertida: "
+    Leer catena 
     
 	alverres <- inversor(catena)
     
@@ -16,10 +18,13 @@ FinAlgoritmo
 Funcion alverres <- inversor(catena)
 	Definir cadenaInvertida Como Cadena
 	
-	longitudCadena <- Longitud(catena) 	// asigno a la Longitud de la cadena a una variable para determinar la matriz
-    Dimension matriz[longitudCadena]	// determino el tamaño de la matriz
+	//Se asigna la Longitud de la cadena a una variable para determinar la matriz
+	//Se determina el tamaño de la matriz
+	longitudCadena <- Longitud(catena) 	
+    Dimension matriz[longitudCadena]	
     
-    Para i <- 1 Hasta longitudCadena Hacer// Almaceno la frase en esta matriz antes de invertirla
+	// Almaceno la frase en esta matriz antes de invertirla
+    Para i <- 1 Hasta longitudCadena Hacer
         matriz[i] <- Subcadena(catena, i, i)
     FinPara
     
@@ -29,5 +34,6 @@ Funcion alverres <- inversor(catena)
         cadenaInvertida <- Concatenar(cadenaInvertida, matriz[j])
     FinPara
 	
-	alverres <- cadenaInvertida// se la enviamos al algoritmo principal
+	// se la enviamos al algoritmo principal
+	alverres <- cadenaInvertida
 FinFuncion
