@@ -4,7 +4,7 @@ Algoritmo invertidor // inicio el algoritmo principal "inversor" (bien escito)
     Definir matriz Como Caracter			//definicion de variable para la frase
     Definir i Como Entero					//definicion de variable para llos iteradores del ciclo for
     Definir j Como Entero
-    Definir alverres Como Cadena	//definicion de variable para la cadena al revés
+    Definir alverres Como Cadena	//definicion de variable para la cadena al revÃ©s
     Escribir "Ingrese una palabra o frase para que sea invertida: " // el usuario ingresa una palabra frase
     Leer catena //Almacena lo ingresado en la variable
     
@@ -17,7 +17,7 @@ Funcion alverres <- inversor(catena)
 	Definir cadenaInvertida Como Cadena
 	
 	longitudCadena <- Longitud(catena) 	// asigno a la Longitud de la cadena a una variable para determinar la matriz
-    Dimension matriz[longitudCadena]	// determino el tamaño de la matriz
+    Dimension matriz[longitudCadena]	// determino el tamaÃ±o de la matriz
     
     Para i <- 1 Hasta longitudCadena Hacer// Almaceno la frase en esta matriz antes de invertirla
         matriz[i] <- Subcadena(catena, i, i)
