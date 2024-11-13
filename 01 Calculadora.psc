@@ -4,11 +4,11 @@ Algoritmo calculadora
     Definir num1, num2, resultado Como Real
     Definir operacion Como Caracter
     
-    // Solicita al usuario que ingrese el primer número
+    // Solicita al usuaroi que ingrese el primer numero
     Escribir "Ingrese el primer número: "
     Leer num1
     
-    // Solicita al usuario que ingrese el segundo número
+    // Solicita al usuario que ingrese el segundo numero
     Escribir "Ingrese el segundo número:"
     Leer num2
     
